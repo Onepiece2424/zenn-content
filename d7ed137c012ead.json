@@ -1,0 +1,13 @@
+{
+  "title": "No Next.js version could be detected in your project. Make sure \"next\" is installed in \"dependencies",
+  "closed": true,
+  "archived": false,
+  "created_at": "2023-12-16",
+  "comments": [
+    {
+      "author": "kingdom0927",
+      "created_at": "2023-12-16",
+      "body_markdown": "Vercel にデプロイした時、下記のエラー発生。\n\n```jsx\nNo Next.js version could be detected in your project. Make sure \"next\" is installed in \"dependencies\" or \"devDependencies\"\n```\n\nエラー内容は、「Next.jsのバージョンを特定できませんでした。プロジェクトの依存関係として定義されていることを確認してください。」とのこと。\n\n<br>\nエラー解決記事\nhttps://stackoverflow.com/questions/74297132/no-next-js-version-could-be-detected-in-your-project-make-sure-next-is-inst\n\nVercelのルートディレクトリというものの設定を変更すれば良いらしい。。。。\n\nルートディレクトリとは？？？\n\n<br>\nルートディレクトリ\n\nhttps://haramizu.com/blog/2022/09/02/deploy-to-vercel"
+    }
+  ]
+}

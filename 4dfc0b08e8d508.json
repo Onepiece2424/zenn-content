@@ -1,0 +1,20 @@
+{
+  "title": "React component の結合度",
+  "closed": true,
+  "archived": false,
+  "created_at": "2023-12-23",
+  "comments": [
+    {
+      "author": "kingdom0927",
+      "created_at": "2023-12-23",
+      "body_markdown": "https://qiita.com/f0lst/items/1857b8ac3c70a17d764c \nhttps://zenn.dev/yumemi_inc/articles/react-coupling-loose\nhttps://speakerdeck.com/nkzn/hooksshi-dai-falseshe-ji-falsehua-number-agrinoteinside?slide=15\n",
+      "body_updated_at": "2023-12-23"
+    },
+    {
+      "author": "kingdom0927",
+      "created_at": "2023-12-23",
+      "body_markdown": "**結合度**\nReactの結合度は、コンポーネント間の依存関係や相互の影響の度合いを示すもの。\n結合度が低いほど、コンポーネントは独立しており、変更が他の部分に影響を与えにくくなる。\n逆に、結合度が高い場合は、一つのコンポーネントの変更が他のコンポーネントに大きな影響を与える可能性が高まる。\n\n例えば、低い結合度の場合、コンポーネントAとBがあり、それぞれが独自の状態や機能を持っているとする。この場合、Aの変更がBに影響を与えることは少ない。\n\n一方で、高い結合度の場合、AとBが強く結びついていて、Aの変更がBに大きな変更を要求する可能性がある。\nこのような場合、コードの変更が広範囲にわたり、保守性が低下する可能性がある。\n\nReactでは、コンポーネントの状態管理やデータの受け渡しにおいて、適切な結合度を保つことが重要。\n結合度を意識的に管理することで、柔軟性が向上し、コードのメンテナンスがしやすくなる。",
+      "body_updated_at": "2023-12-24"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Atomic Design",
+  "closed": true,
+  "archived": false,
+  "created_at": "2023-12-23",
+  "comments": [
+    {
+      "author": "kingdom0927",
+      "created_at": "2023-12-23",
+      "body_markdown": "https://postd.cc/the-unicorn-workflow-design-to-code-with-atomic-design-principles-and-sketch/\nhttps://blog.kubosho.com/entries/using-atomic-design"
+    },
+    {
+      "author": "kingdom0927",
+      "created_at": "2023-12-23",
+      "body_markdown": "\nAtomic Designは、Webデザインやフロントエンド開発のための設計原則で、デザインやコンポーネントを原子（Atoms）、分子（Molecules）、有機体（Organisms）、テンプレート（Templates）、ページ（Pages）の5つの階層に分類する。\nこれにより、コンポーネントを再利用可能で理解しやすい単位で構築することができる。"
+    }
+  ]
+}

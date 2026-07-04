@@ -1,0 +1,14 @@
+{
+  "title": "React コンポジション",
+  "closed": true,
+  "archived": false,
+  "created_at": "2023-12-24",
+  "comments": [
+    {
+      "author": "kingdom0927",
+      "created_at": "2023-12-24",
+      "body_markdown": "**コンポジション**\nReactでアプリを作成する際に、コンポーネントをどのように分割して構成するかを考え、コンポーネントの再利用性や柔軟性を高める手法のこと。\n\n<br>\n\nhttps://programming-world.net/react/react_composition/#google_vignette\n\n<br>\n①Propsを利用したコンポジション\nコンポーネントにプロパティ（props）として他のコンポーネントを渡すことで、それらを組み合わせることができます。例えば、ボタンやテキスト入力などの小さなコンポーネントを作成し、それを他のコンポーネントで利用することができます。\n\n```\nfunction Button(props) {\n  return <button>{props.label}</button>;\n}\n\nfunction App() {\n  return (\n    <div>\n      <Button label=\"Click me\" />\n    </div>\n  );\n}\n\n```\n\n<br>\n②Childrenを利用したコンポジション\nコンポーネント内でprops.childrenを使用することで、親コンポーネントの中に任意の要素を埋め込むことができます。これにより、柔軟で再利用可能なcomponentを構築することができます。\n\n```\nfunction Card(props) {\n  return (\n    <div className=\"card\">\n      {props.children}\n    </div>\n  );\n}\n\nfunction App() {\n  return (\n    <Card>\n      <h2>Title</h2>\n      <p>Content goes here.</p>\n    </Card>\n  );\n}\n```\n\n\n",
+      "body_updated_at": "2023-12-24"
+    }
+  ]
+}

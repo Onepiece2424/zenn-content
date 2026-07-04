@@ -1,0 +1,13 @@
+{
+  "title": "Docker Engine/Docker Daemon",
+  "closed": true,
+  "archived": false,
+  "created_at": "2023-12-24",
+  "comments": [
+    {
+      "author": "kingdom0927",
+      "created_at": "2023-12-24",
+      "body_markdown": "**Docker Engine**\nアプリケーションを構築してコンテナ化するためのオープンソースのコンテナ化技術です。アプリケーションやサービスをコンテナにパッケージ化し、実行するための環境を提供します。\n\nまた、コンテナのイメージ管理、ネットワーク管理、データ管理、ログ管理など、さまざまな機能を提供します。また、アプリケーション本体とそれを実行するための環境を1つのDockerイメージにまとめることができます。\n\nhttps://docs.docker.jp/v1.12/engine/understanding-docker.html\n\nhttps://zenn.dev/ryoatsuta/articles/64dcc2e2b4e0cf\n\nhttps://www.ogis-ri.co.jp/otc/hiroba/technical/docker/part6.html\n\n<br>\n＊ ドキュメントから抜粋\nDocker Engine は３つの主なコンポーネント（構成要素）を持つクライアント・サーバ型アプリケーションです。\n\n- サーバはデーモン・プロセスと呼ばれる長期間実行するプログラムの種類\n- インターフェースを規定する REST API は、プログラムがデーモンと通信に使うものであり、何をするか指示\n- コマンドライン・インターフェース（CLI）クライアント\n\n![](https://storage.googleapis.com/zenn-user-upload/6b955c7162c1-20231224.png)\n\nCLI は Docker REST API のスクリプトもしくは直接 CLI コマンドを使い、Docker デーモンを制御または対話します。\n\n多くの他の Docker アプリケーションは、根底となる API と CLI を利用します。\n\nデーモンは Docker オブジェクトを作成・管理します。\n\nDocker オブジェクトには、イメージ、コンテナ、ネットワーク、データ・ボリュームなどを含みます。\n\n<br>\n**Docker Daemon**\nコンテナを管理するために常駐するプロセス（実行中のプログラムのこと）です。\n\nDocker はクライアント・サーバ型のアーキテクチャで、Docker クライアントは Docker デーモンと通信して、コンテナの構築・実行・配布を行います。\n\n<br>\n＊ 上記の記事抜粋\n**Docker CLI** は、`docker run` や `docker build` などの Dockerコマンドを実行するコマンドラインツールです。\n\nDocker CLI は、入力された Dockerコマンドに応じて **Docker Engine API** を呼び出します。**Dockerデーモン**は Linux のデーモンプロセスで、Docker Engine API が呼び出されるのを待ち受けています。\n\nDockerデーモンは、呼び出された Docker Engine API に応じて、イメージのビルドやコンテナの起動などを行います。\n\nこのように、Docker Engine は**クライアント・サーバーモデル**のアプリケーションであると言えます。\n\nクライアントである Docker CLI が、Docker Engine API を介して、サーバーである Dockerデーモンに処理を要求し、応答を受け取っているのです。\n\n![](https://storage.googleapis.com/zenn-user-upload/3a33ea87cca8-20231224.png)"
+    }
+  ]
+}
