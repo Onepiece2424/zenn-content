@@ -8,7 +8,7 @@ topics:
   - "vpc"
   - "ec2"
 published: true
-published_at: "2026-07-07 7:15"
+published_at: "2026-07-07 07:15"
 ---
 
 ## はじめに
